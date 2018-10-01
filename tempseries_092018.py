@@ -13,7 +13,7 @@ import os
 
 cmap = plt.get_cmap('viridis')
 
-df = pd.read_table('/Users/caiopumar/Downloads/ImageStatsDF.txt',
+df = pd.read_table('',
                    sep=';',
                    usecols=['Files','Date','Time','Buttons'])
 
